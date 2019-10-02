@@ -19,6 +19,7 @@ namespace GetMACAddress
         private void Button1_Click(object sender, EventArgs e)
         {
             textBox1.Text = FingerPrint.Value().ToString();
+            textBox2.Text = System.Environment.MachineName;
             //return;
             //string a = "";
             //foreach (NetworkInterface nic in NetworkInterface.GetAllNetworkInterfaces())
